@@ -1,7 +1,3 @@
-payload/** -text
-scripts/*.ps1 -text
-*.cmd -text
-package-manifest.json -text
-release-inputs/*.tar.xz binary
-release-inputs/*.part* binary
-release-inputs/*.b64* -text
+# Preserve the verified asset and script bytes in every checkout.
+* -text
+*.png binary
