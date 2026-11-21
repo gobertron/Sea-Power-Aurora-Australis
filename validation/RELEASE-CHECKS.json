@@ -1,0 +1,24 @@
+{
+  "release": "0.2.0",
+  "game_target": "ApproximateVersion=0.9.0 carried forward. No Steam build was executed for this release.",
+  "last_known_game_confirmed_version": null,
+  "package_manifest_files_verified": 169,
+  "runtime_zip_sha256": "783299ddf794e7f11c27b3bdb09b8426c94d0134abf5ec8619ca59a56afc176d",
+  "launcher_sha256": "4aef8d1653b2a809b0cafaa0bb3c54ea28c9f4a8bc0ae096ee3aaded061d5d93",
+  "embedded_runtime_zip_matches_release_byte_for_byte": true,
+  "all_runtime_files_match_staged_project": true,
+  "localized_ship": "HMAS Rimehaven",
+  "localized_class": "White Meridian",
+  "stable_unit_ids": [
+    "ran_agb_aurora_2000",
+    "ran_agb_aurora_2010",
+    "ran_agb_aurora_2020"
+  ],
+  "native_mesh_audit": "PASS",
+  "simulation_checks": {
+    "live_scenario": false,
+    "windows_11_desktop": false,
+    "dynamic_ice_simulation_implemented": false
+  },
+  "installer_fixture_checks_passed": 10
+}

@@ -1,0 +1,115 @@
+{
+  "ship": "HMAS Rimehaven",
+  "class": "White Meridian",
+  "version": "0.2.0",
+  "viewer": {
+    "path": "HMAS-Rimehaven-3D.html",
+    "sha256": "2ef3e79ac1cf55f3ec5551e2937547011a228024e7b4f6847e3f421f57ab8dc3"
+  },
+  "static_hull_study": {
+    "path": "docs/Rimehaven-Hull-Study.png",
+    "sha256": "563316dc3426afd8be09d3fe58a3180273c4a5c27bc93fb1c6276aa173a15525",
+    "size_px": [
+      1600,
+      1090
+    ],
+    "rendered_from": "source/model/aurora_2020.obj",
+    "renderer": "Blender 4.3.2 Cycles, native source converted to Z-up",
+    "views": [
+      "Starboard profile including the design waterline",
+      "Icebreaking bow",
+      "Stern gear"
+    ]
+  },
+  "era_geometry": {
+    "2000": {
+      "vertices": 109644,
+      "triangles": 36548,
+      "bounds": [
+        [
+          -14.5,
+          -9.5,
+          -80.028
+        ],
+        [
+          14.5,
+          33.300003,
+          80.0
+        ]
+      ],
+      "meshes": 523,
+      "bytes": 4385760,
+      "input": "source/model/aurora_2000.obj",
+      "input_sha256": "4d86a0eda2f77d9d8c67de52b5bd484fb89f7397c3749dd926058d19e75be41f",
+      "render_buffer_sha256": "c7438eea77aa15538fa1cf1520613395f5eec23887a71bb8a8e1646a807a8f3b"
+    },
+    "2010": {
+      "vertices": 112260,
+      "triangles": 37420,
+      "bounds": [
+        [
+          -14.5,
+          -9.5,
+          -80.028
+        ],
+        [
+          14.5,
+          33.599998,
+          80.0
+        ]
+      ],
+      "meshes": 519,
+      "bytes": 4490400,
+      "input": "source/model/aurora_2010.obj",
+      "input_sha256": "c96d91a51f5cdceccb0a13a68d1a2a604a940480b9e3b9aa93f493844ee536c9",
+      "render_buffer_sha256": "dd8d4ce72dc3f576131b91176ad82e6524698f7d5cdb3e944369e74e2c72bcba"
+    },
+    "2020": {
+      "vertices": 114792,
+      "triangles": 38264,
+      "bounds": [
+        [
+          -14.5,
+          -9.5,
+          -80.028
+        ],
+        [
+          14.5,
+          33.950001,
+          80.0
+        ]
+      ],
+      "meshes": 530,
+      "bytes": 4591680,
+      "input": "source/model/aurora_2020.obj",
+      "input_sha256": "bde0d0aa0e70dfe030d03ea6aaa22f7c03328bd0d67060acfd9d736c991752a9",
+      "render_buffer_sha256": "a77ccc889cd8373e0f16e4ded228244e559481e5e407c545f1a7dcca6407d5ab"
+    }
+  },
+  "offscreen_graphics": {
+    "result": "passed",
+    "method": "Executed the embedded JavaScript with DOM and WebGL call capture. Replayed its shaders, vertex buffers and preset matrices in a real OpenGL ES context using surfaceless EGL. Inspected the resulting images.",
+    "viewport_px": [
+      920,
+      610
+    ],
+    "presets_rendered": [
+      "quarter",
+      "bow",
+      "stern",
+      "side",
+      "top"
+    ],
+    "era_buffers_finite_and_complete": true,
+    "unclipped_profile_vs_waterline_profile_changed_pixels": 21746,
+    "bow_highlight_changed_pixels": 154447,
+    "overview_pixels_different_from_2020": {
+      "2000": 776,
+      "2010": 757
+    }
+  },
+  "pending_tests": {
+    "Windows_browser": "Pending. Local Chromium startup was blocked by the environment’s socket permissions.",
+    "Sea_Power": "Game appearance and behaviour require a live game test."
+  }
+}

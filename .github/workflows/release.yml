@@ -1,0 +1,64 @@
+name: Publish Rimehaven release
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rimehaven-release
+  cancel-in-progress: false
+jobs:
+  windows:
+    runs-on: windows-2022
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Install model reader dependency
+        run: python -m pip install Pillow==11.3.0
+      - name: Restore and package
+        run: |
+          python .github/scripts/restore_inputs.py
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          python release-tools/build_launcher.py --output dist/Install-Rimehaven.cmd
+          exit $LASTEXITCODE
+      - name: Exercise Windows PowerShell and CMD on isolated fixtures
+        run: |
+          python release-tools/test_installer.py dist/Install-Rimehaven.cmd --powershell powershell.exe
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          python .github/scripts/check_windows_launcher.py
+          exit $LASTEXITCODE
+  release:
+    needs: windows
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Install model reader dependency
+        run: python3 -m pip install Pillow==11.3.0
+      - name: Restore release inputs
+        run: python3 .github/scripts/restore_inputs.py
+      - name: Assemble and check installer
+        run: |
+          python3 release-tools/build_launcher.py --output dist/Install-Rimehaven.cmd
+          python3 release-tools/verify_launcher.py dist/Install-Rimehaven.cmd
+      - name: Prepare offline 3D preview
+        run: |
+          if test -f HMAS-Rimehaven-3D.html; then
+            cp HMAS-Rimehaven-3D.html dist/
+          else
+            python3 source/viewer/build_viewer.py --output dist/HMAS-Rimehaven-3D.html
+          fi
+      - name: Copy hull study
+        run: cp docs/Rimehaven-Hull-Study.png dist/
+      - name: Package editable sources
+        run: python3 .github/scripts/build_source_bundle.py
+      - name: Publish verified files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/publish_release.py

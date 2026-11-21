@@ -1,0 +1,376 @@
+{
+  "status": "PASS",
+  "scope": "Static mesh, native-axis and mount-contact checks only. Not in-game firing, icebreaking, stability, armour or propulsion validation.",
+  "results": [
+    {
+      "era": 2000,
+      "vertices": 20746,
+      "triangles": 36548,
+      "objects": 523,
+      "materials": [
+        "black",
+        "blue",
+        "brass",
+        "darkgrey",
+        "deck",
+        "glass",
+        "heli",
+        "hull",
+        "icebelt",
+        "lightgrey",
+        "module",
+        "nav_green",
+        "nav_red",
+        "safety",
+        "underwater",
+        "white",
+        "yellow"
+      ],
+      "checks": {
+        "finite_vertices": true,
+        "valid_indices": true,
+        "triangles_only": true,
+        "required_weapon_objects": true,
+        "no_missile_torpedo_mesh": true,
+        "no_detached_thruster_symbols": true,
+        "closed_collision_source": true,
+        "moulded_dimensions": true,
+        "raked_stem_at_waterplane": true,
+        "fixed_ice_protection_present": true,
+        "screw_rotation_clears_nozzles": true,
+        "all_major_mounts_supported": true
+      },
+      "mount_contacts": [
+        {
+          "object": "GunYaw",
+          "support": "Gun30_base",
+          "horizontal_overlap": true,
+          "vertical_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "object": "CIWSYaw1",
+          "support": "CIWS_foundation_1",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.025,
+          "pass": true
+        },
+        {
+          "object": "CIWSYaw2",
+          "support": "CIWS_foundation_2",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.025,
+          "pass": true
+        },
+        {
+          "object": "CIWS_foundation_1",
+          "support": "CIWS_sponson_1",
+          "horizontal_overlap": true,
+          "vertical_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "object": "CIWS_foundation_2",
+          "support": "CIWS_sponson_2",
+          "horizontal_overlap": true,
+          "vertical_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "object": "CIWS_sponson_1",
+          "support": "CIWS_support_1",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.075,
+          "pass": true
+        },
+        {
+          "object": "CIWS_sponson_2",
+          "support": "CIWS_support_2",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.075,
+          "pass": true
+        }
+      ],
+      "polar_geometry": {
+        "deck_stem_overhang_ahead_of_waterline_m": 6.36,
+        "waterline_length_m": 153.211,
+        "hull_length_m": 160.0,
+        "hull_beam_m": 29.0,
+        "draft_m": 9.5,
+        "hull_triangles": 1408,
+        "undirected_hull_edges": 2112,
+        "screw_clearance": [
+          {
+            "shaft_x_m": -5,
+            "blades": 5,
+            "swept_radius_m": 2.086,
+            "minimum_radial_clearance_m": 0.087
+          },
+          {
+            "shaft_x_m": 0,
+            "blades": 5,
+            "swept_radius_m": 2.086,
+            "minimum_radial_clearance_m": 0.087
+          },
+          {
+            "shaft_x_m": 5,
+            "blades": 5,
+            "swept_radius_m": 2.086,
+            "minimum_radial_clearance_m": 0.087
+          }
+        ]
+      }
+    },
+    {
+      "era": 2010,
+      "vertices": 21174,
+      "triangles": 37420,
+      "objects": 519,
+      "materials": [
+        "black",
+        "blue",
+        "brass",
+        "darkgrey",
+        "deck",
+        "glass",
+        "heli",
+        "hull",
+        "icebelt",
+        "lightgrey",
+        "module",
+        "nav_green",
+        "nav_red",
+        "safety",
+        "underwater",
+        "white",
+        "yellow"
+      ],
+      "checks": {
+        "finite_vertices": true,
+        "valid_indices": true,
+        "triangles_only": true,
+        "required_weapon_objects": true,
+        "no_missile_torpedo_mesh": true,
+        "no_detached_thruster_symbols": true,
+        "closed_collision_source": true,
+        "moulded_dimensions": true,
+        "raked_stem_at_waterplane": true,
+        "fixed_ice_protection_present": true,
+        "screw_rotation_clears_nozzles": true,
+        "all_major_mounts_supported": true
+      },
+      "mount_contacts": [
+        {
+          "object": "GunYaw",
+          "support": "Gun30_base",
+          "horizontal_overlap": true,
+          "vertical_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "object": "CIWSYaw1",
+          "support": "CIWS_foundation_1",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.025,
+          "pass": true
+        },
+        {
+          "object": "CIWSYaw2",
+          "support": "CIWS_foundation_2",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.025,
+          "pass": true
+        },
+        {
+          "object": "CIWS_foundation_1",
+          "support": "CIWS_sponson_1",
+          "horizontal_overlap": true,
+          "vertical_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "object": "CIWS_foundation_2",
+          "support": "CIWS_sponson_2",
+          "horizontal_overlap": true,
+          "vertical_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "object": "CIWS_sponson_1",
+          "support": "CIWS_support_1",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.075,
+          "pass": true
+        },
+        {
+          "object": "CIWS_sponson_2",
+          "support": "CIWS_support_2",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.075,
+          "pass": true
+        }
+      ],
+      "polar_geometry": {
+        "deck_stem_overhang_ahead_of_waterline_m": 6.36,
+        "waterline_length_m": 153.211,
+        "hull_length_m": 160.0,
+        "hull_beam_m": 29.0,
+        "draft_m": 9.5,
+        "hull_triangles": 1408,
+        "undirected_hull_edges": 2112,
+        "screw_clearance": [
+          {
+            "shaft_x_m": -5,
+            "blades": 5,
+            "swept_radius_m": 2.086,
+            "minimum_radial_clearance_m": 0.087
+          },
+          {
+            "shaft_x_m": 0,
+            "blades": 5,
+            "swept_radius_m": 2.086,
+            "minimum_radial_clearance_m": 0.087
+          },
+          {
+            "shaft_x_m": 5,
+            "blades": 5,
+            "swept_radius_m": 2.086,
+            "minimum_radial_clearance_m": 0.087
+          }
+        ]
+      }
+    },
+    {
+      "era": 2020,
+      "vertices": 21680,
+      "triangles": 38264,
+      "objects": 530,
+      "materials": [
+        "black",
+        "blue",
+        "brass",
+        "darkgrey",
+        "deck",
+        "glass",
+        "heli",
+        "hull",
+        "icebelt",
+        "lightgrey",
+        "module",
+        "nav_green",
+        "nav_red",
+        "safety",
+        "underwater",
+        "white",
+        "yellow"
+      ],
+      "checks": {
+        "finite_vertices": true,
+        "valid_indices": true,
+        "triangles_only": true,
+        "required_weapon_objects": true,
+        "no_missile_torpedo_mesh": true,
+        "no_detached_thruster_symbols": true,
+        "closed_collision_source": true,
+        "moulded_dimensions": true,
+        "raked_stem_at_waterplane": true,
+        "fixed_ice_protection_present": true,
+        "screw_rotation_clears_nozzles": true,
+        "all_major_mounts_supported": true
+      },
+      "mount_contacts": [
+        {
+          "object": "GunYaw",
+          "support": "Gun30_base",
+          "horizontal_overlap": true,
+          "vertical_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "object": "CIWSYaw1",
+          "support": "CIWS_foundation_1",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.025,
+          "pass": true
+        },
+        {
+          "object": "CIWSYaw2",
+          "support": "CIWS_foundation_2",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.025,
+          "pass": true
+        },
+        {
+          "object": "CIWS_foundation_1",
+          "support": "CIWS_sponson_1",
+          "horizontal_overlap": true,
+          "vertical_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "object": "CIWS_foundation_2",
+          "support": "CIWS_sponson_2",
+          "horizontal_overlap": true,
+          "vertical_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "object": "CIWS_sponson_1",
+          "support": "CIWS_support_1",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.075,
+          "pass": true
+        },
+        {
+          "object": "CIWS_sponson_2",
+          "support": "CIWS_support_2",
+          "horizontal_overlap": true,
+          "vertical_gap_m": -0.075,
+          "pass": true
+        }
+      ],
+      "polar_geometry": {
+        "deck_stem_overhang_ahead_of_waterline_m": 6.36,
+        "waterline_length_m": 153.211,
+        "hull_length_m": 160.0,
+        "hull_beam_m": 29.0,
+        "draft_m": 9.5,
+        "hull_triangles": 1408,
+        "undirected_hull_edges": 2112,
+        "screw_clearance": [
+          {
+            "shaft_x_m": -5,
+            "blades": 5,
+            "swept_radius_m": 2.086,
+            "minimum_radial_clearance_m": 0.087
+          },
+          {
+            "shaft_x_m": 0,
+            "blades": 5,
+            "swept_radius_m": 2.086,
+            "minimum_radial_clearance_m": 0.087
+          },
+          {
+            "shaft_x_m": 5,
+            "blades": 5,
+            "swept_radius_m": 2.086,
+            "minimum_radial_clearance_m": 0.087
+          }
+        ]
+      }
+    }
+  ],
+  "source_sha256": "8dcc88d4c1205efbf1c71fbf96ae2cdc6e73647116b744746b4d73d6d0305876",
+  "review_views": [
+    "overview",
+    "port quarter",
+    "starboard profile",
+    "plan"
+  ],
+  "needs_live_game_check": [
+    "CIWS masked arcs and target tracking",
+    "Gun training animation and muzzle origin",
+    "Waterline and hull placement",
+    "Helicopter landing"
+  ]
+}

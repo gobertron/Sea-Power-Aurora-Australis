@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "runtime_sha256": "783299ddf794e7f11c27b3bdb09b8426c94d0134abf5ec8619ca59a56afc176d",
+  "launcher_sha256": "4aef8d1653b2a809b0cafaa0bb3c54ea28c9f4a8bc0ae096ee3aaded061d5d93",
+  "environment": "posix, PowerShell 7.7.0",
+  "fixture_only": true,
+  "windows_cmd_or_registry_tested": false,
+  "live_github_http_exercised": false,
+  "sea_power_executed": false,
+  "details": "Stock file names and sections are synthetic; bootstrap network responses and the promotion error are supplied by the test harness.",
+  "checks": {
+    "Clean install via verified seed and Steam VDF/custom ACF discovery": "passed",
+    "Repeat install exits without rewriting the active copy or making a backup": "passed",
+    "Damaged owned install repaired with backup": "passed",
+    "Unmanaged file in the platform directory preserved": "passed",
+    "Missing stock dependency blocks changes": "passed",
+    "Real legacy v0.1.0 manager and payload installed in fixture": "passed",
+    "Promotion failure restores complete legacy tree byte for byte": "passed",
+    "Corrupt remote checksum rejected before replacing active copy": "passed",
+    "Older saved launcher downloads stable update and upgrades in place": "passed",
+    "Offline launcher preserves an intact newer install": "passed"
+  }
+}

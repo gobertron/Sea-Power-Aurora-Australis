@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "ammunition/usn_cal_25mm_m2.ini"
+    },
+    {
+      "path": "ammunition/usn_cal_20mm_apds.ini"
+    },
+    {
+      "path": "ammunition/usn_cal_05in.ini"
+    },
+    {
+      "path": "systems/weapons.ini"
+    },
+    {
+      "path": "systems/sensors.ini"
+    }
+  ],
+  "weapon_systems": [
+    "M242",
+    "MK15_Blk1",
+    "50BMG"
+  ],
+  "sensor_systems": [
+    "Optics",
+    "SPS-55",
+    "AN/SLQ-32_ESM"
+  ],
+  "combat_systems": []
+}

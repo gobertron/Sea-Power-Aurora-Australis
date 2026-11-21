@@ -1,0 +1,11 @@
+HMAS Rimehaven · White Meridian-class equipment fits · v0.2.0
+
+2000 — Original fit. Common nuclear-electric patrol hull and baseline polar navigation, optics, communications and rescue equipment.
+2010 — Patrol refit. Revised sensor and communications geometry and the existing game's passive ESM reference.
+2020 — Polar surveillance refit. Revised mast and mission equipment, including the visual survey/UAV support module. The native sensor definitions are shared with the 2010 fit.
+
+All three fits use the rebuilt icebreaker hull and earlier defensive equipment. Each has an established native ID so saved missions can resolve their original entry. The Mission Editor selects the fit. In-mission refits and operational SAR aircraft are outside this release.
+
+The flight deck, hangar, rescue boats, cranes and enclosed survival craft are visible equipment. A static mesh or lamp lens establishes placement only. Verify animation and night behaviour inside the game.
+
+Nuclear propulsion and minor armour are native gameplay settings. Fuel, endurance, structural reinforcement, stability, steel scantlings, thermal systems and sea-ice mechanics have no dedicated simulation in this build.

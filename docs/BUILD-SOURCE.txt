@@ -1,0 +1,24 @@
+HMAS Rimehaven · Rebuild the editable source · v0.2.0
+
+Playing the mod requires only Install-Rimehaven.cmd and a compatible copy of Sea Power. Use the editable-source release download when changing the ship.
+
+In a Git checkout, run "python .github/scripts/restore_inputs.py" with Python 3.12+ first. This restores the exact checked-in binary assets from release-inputs. The editable-source ZIP already contains the expanded model.
+
+The common hull, polar fittings and three equipment collections live in source/model. Filenames that include Aurora are historical internal names. The native metre axes are X starboard, Y up, Z forward, with Y = 0 at the design waterline. Blender source axes are X starboard, Y forward, Z up. Mesh and anchor names connect the source to the native exporter.
+
+Run from the project root with Blender 4.3, Python 3, Pillow, NumPy and SciPy available. Use a separate build directory to preserve local binary edits.
+
+    blender -b --python source/model/build_aurora.py -- source/model
+    python source/model/validate_aurora.py
+    python tools/build_native_aurora.py --source source/model
+    python tools/check_native_geometry.py
+    blender -b --python source/viewer/render_hull.py -- source/model/aurora_2020.obj docs/Rimehaven-Hull-Study.png
+    python source/viewer/build_viewer.py --models source/model --output HMAS-Rimehaven-3D.html
+    python release-tools/build_launcher.py --output dist/Install-Rimehaven.cmd
+    python release-tools/verify_launcher.py dist/Install-Rimehaven.cmd
+
+The native model uses the metre conversion and OBJ import orientation checked in the v0.8.7 reference assembly (261021 Public Release). The compatibility target is v0.9.0. No installed Steam build was run in the build environment. Exact assembly and stock reference hashes are in validation/NATIVE-GEOMETRY-v0.2.0.json.
+
+The launcher builder generates the runtime ZIP, SHA-256 sidecar and standalone launcher together. Run the separate installer fixture with a PowerShell runtime. Live checks are documented in GAME-TEST.txt.
+
+The original procedural geometry and scripts may be edited, repacked and shared as part of Aram Hummerston's Sea Power mod project. Public design references are listed in DESIGN-BRIEF.txt. The game's original models and registries are supplied by the user's game installation.

@@ -1,0 +1,10 @@
+HMAS Rimehaven · White Meridian-class Antarctic patrol icebreaker · v0.2.0
+
+1. Close Sea Power.
+2. Double-click Install-Rimehaven.cmd. Keep the same file for future updates.
+3. Enable the Rimehaven mod in Sea Power's Mods menu and restart.
+4. In the Mission Editor choose Australia, set a date in 2020 or later, select the White Meridian fit year and start a test scenario.
+
+If prompted for the game folder, select the directory containing Sea Power.exe. Example: F:\SteamLibrary\steamapps\common\Sea Power
+
+The historical mod directory RAN-Aurora-Australis is retained so existing installs can be upgraded. The launcher prints the installed version, result and log location. Run it again to check for an update. The 3D viewer opens separately in a current web browser.

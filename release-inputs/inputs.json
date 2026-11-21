@@ -1,0 +1,27 @@
+{
+  "native-source.tar.xz": {
+    "parts": [
+      "native-source.tar.xz.b64"
+    ],
+    "sha256": "9a262912f8afbdefd77c545e4f2d55e6e665f75c5cb2993fe8a699d1a0673553"
+  },
+  "editing-exports.tar.xz": {
+    "parts": [
+      "editing-exports.tar.xz.b64.000",
+      "editing-exports.tar.xz.b64.001"
+    ],
+    "sha256": "db2951de37d5e6ae8abeb48df53d918d743531b3a904c3cb90ce05434b0b3aa1"
+  },
+  "textures.tar.xz": {
+    "parts": [
+      "textures.tar.xz.b64"
+    ],
+    "sha256": "d2f5f9dc88e5e56f1c36783e40dd4c315ae324259eb081a1bf3d2b4201e53f4b"
+  },
+  "reviewed-inset.webp": {
+    "parts": [
+      "reviewed-inset.webp.b64"
+    ],
+    "sha256": "ee74475f5d723091ec60faa175dac51c111e65b5e5f357586176df2fd1521c09"
+  }
+}

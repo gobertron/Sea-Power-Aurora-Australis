@@ -1,0 +1,11 @@
+HMAS Rimehaven · Sea Power acceptance check · v0.2.0
+
+Close Sea Power, run Install-Rimehaven.cmd, enable the mod and restart. Make a new Mission Editor scenario dated 2020 or later. Use Australia and place each White Meridian fit once.
+
+1. Open Unit Reference for each fit. Check the fictional ship name HMAS Rimehaven, White Meridian class, the correct fit year and build version.
+2. Start in calm open water. Observe at rest from broadside and directly ahead. The design waterline should cross the ice belt. Check that the forecastle and flight deck stay above water and that both shoulders meet the deck.
+3. Order 3 knots and a turn each way. Inspect wake direction, shaft rotation and rudder movement. Compare static and moving trim. Repeat in a rougher sea for bow clipping and exposed gaps.
+4. Inspect the stern quarter and bridge windows. Check the rails, rescue equipment, flight deck, lights at dusk and materials on all three fits. A historical scenario using ran_agb_aurora_2000, ran_agb_aurora_2010 or ran_agb_aurora_2020 should load the corresponding revised fit.
+5. Save the mission, exit and reload. Record the game build, fit year, mod order, resulting waterline and any error from the game log.
+
+Sea Power has not been run against this package in the build environment. No ice-fracture or channel-clearing system is provided. The aft pad and hangar are visual facilities. The era fits are separate native definitions for one platform.

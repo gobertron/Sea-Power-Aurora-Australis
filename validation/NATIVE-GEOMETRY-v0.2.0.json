@@ -1,0 +1,212 @@
+{
+  "version": "0.2.0",
+  "status": "PASS",
+  "scope": "Offline native geometry and configuration audit; no Windows or Sea Power runtime test.",
+  "source_axis_convention": "X starboard, Y up, Z forward, authored design waterline Y=0 m",
+  "metres_per_native_unit": 67.2000672000672,
+  "units": [
+    {
+      "unit_id": "ran_agb_aurora_2000",
+      "checks": {
+        "all_indices_valid": true,
+        "all_positions_normals_finite": true,
+        "all_native_triangles_nonzero": true,
+        "normals_face_their_triangles": true,
+        "collision_not_a_rendered_submodel": true,
+        "collision_reference_resolves": true,
+        "closed_collision_mesh": true,
+        "outward_collision_winding": true,
+        "native_world_geometry_matches_source": true,
+        "three_visible_screws_three_visible_rudders": true,
+        "all_mounts_and_parents_resolve": true,
+        "dimensions_match_config": true,
+        "mesh_collider_section_resolves": true,
+        "design_waterplane_intersects_hull": true,
+        "rising_forefoot_beneath_waterline": true,
+        "class_and_ship_renamed_and_registered": true,
+        "all_materials_and_textures_found": true
+      },
+      "materials_checked": 17,
+      "waterline_length_m": 153.21128873906343,
+      "waterline_beam_m": 28.678485309409435,
+      "waterline_foremost_station_m": 73.63986014409198,
+      "foremost_station_below_7m_depth_m": 53.00000003360003,
+      "hull_length_beam_draft_m": [
+        159.99999999999997,
+        29.000000033600035,
+        9.499999983199983
+      ],
+      "native_min_m": [
+        -14.500000016800017,
+        -9.499999983199983,
+        -80.02799998319998
+      ],
+      "native_max_m": [
+        14.500000016800017,
+        33.30000297360297,
+        79.99999999999999
+      ],
+      "native_to_source_max_error_m": 9.810811809910802e-08,
+      "source_to_native_max_error_m": 9.810811809910802e-08,
+      "collision_signed_volume_m3": 58079.97396007923,
+      "collision_edge_multiplicities": {
+        "2": 2112
+      },
+      "lowest_normal_face_dot": 0.771333557,
+      "visible_moving_mesh_triangles": {
+        "Propeller1": 432,
+        "Rudder1": 32,
+        "Propeller2": 432,
+        "Rudder2": 32,
+        "Propeller3": 432,
+        "Rudder3": 32
+      }
+    },
+    {
+      "unit_id": "ran_agb_aurora_2010",
+      "checks": {
+        "all_indices_valid": true,
+        "all_positions_normals_finite": true,
+        "all_native_triangles_nonzero": true,
+        "normals_face_their_triangles": true,
+        "collision_not_a_rendered_submodel": true,
+        "collision_reference_resolves": true,
+        "closed_collision_mesh": true,
+        "outward_collision_winding": true,
+        "native_world_geometry_matches_source": true,
+        "three_visible_screws_three_visible_rudders": true,
+        "all_mounts_and_parents_resolve": true,
+        "dimensions_match_config": true,
+        "mesh_collider_section_resolves": true,
+        "design_waterplane_intersects_hull": true,
+        "rising_forefoot_beneath_waterline": true,
+        "class_and_ship_renamed_and_registered": true,
+        "all_materials_and_textures_found": true
+      },
+      "materials_checked": 17,
+      "waterline_length_m": 153.21128873906343,
+      "waterline_beam_m": 28.678485309409435,
+      "waterline_foremost_station_m": 73.63986014409198,
+      "foremost_station_below_7m_depth_m": 53.00000003360003,
+      "hull_length_beam_draft_m": [
+        159.99999999999997,
+        29.000000033600035,
+        9.499999983199983
+      ],
+      "native_min_m": [
+        -14.500000016800017,
+        -9.499999983199983,
+        -80.02799998319998
+      ],
+      "native_max_m": [
+        14.500000016800017,
+        33.59999798399798,
+        79.99999999999999
+      ],
+      "native_to_source_max_error_m": 9.810811809910802e-08,
+      "source_to_native_max_error_m": 9.810811809910802e-08,
+      "collision_signed_volume_m3": 58079.97396007923,
+      "collision_edge_multiplicities": {
+        "2": 2112
+      },
+      "lowest_normal_face_dot": 0.771333557,
+      "visible_moving_mesh_triangles": {
+        "Propeller1": 432,
+        "Rudder1": 32,
+        "Propeller2": 432,
+        "Rudder2": 32,
+        "Propeller3": 432,
+        "Rudder3": 32
+      }
+    },
+    {
+      "unit_id": "ran_agb_aurora_2020",
+      "checks": {
+        "all_indices_valid": true,
+        "all_positions_normals_finite": true,
+        "all_native_triangles_nonzero": true,
+        "normals_face_their_triangles": true,
+        "collision_not_a_rendered_submodel": true,
+        "collision_reference_resolves": true,
+        "closed_collision_mesh": true,
+        "outward_collision_winding": true,
+        "native_world_geometry_matches_source": true,
+        "three_visible_screws_three_visible_rudders": true,
+        "all_mounts_and_parents_resolve": true,
+        "dimensions_match_config": true,
+        "mesh_collider_section_resolves": true,
+        "design_waterplane_intersects_hull": true,
+        "rising_forefoot_beneath_waterline": true,
+        "class_and_ship_renamed_and_registered": true,
+        "all_materials_and_textures_found": true
+      },
+      "materials_checked": 17,
+      "waterline_length_m": 153.21128873906343,
+      "waterline_beam_m": 28.678485309409435,
+      "waterline_foremost_station_m": 73.63986014409198,
+      "foremost_station_below_7m_depth_m": 53.00000003360003,
+      "hull_length_beam_draft_m": [
+        159.99999999999997,
+        29.000000033600035,
+        9.499999983199983
+      ],
+      "native_min_m": [
+        -14.500000016800017,
+        -9.499999983199983,
+        -80.02799998319998
+      ],
+      "native_max_m": [
+        14.500000016800017,
+        33.950000999600995,
+        79.99999999999999
+      ],
+      "native_to_source_max_error_m": 9.810811809910802e-08,
+      "source_to_native_max_error_m": 9.810811809910802e-08,
+      "collision_signed_volume_m3": 58079.97396007923,
+      "collision_edge_multiplicities": {
+        "2": 2112
+      },
+      "lowest_normal_face_dot": 0.771333557,
+      "visible_moving_mesh_triangles": {
+        "Propeller1": 432,
+        "Rudder1": 32,
+        "Propeller2": 432,
+        "Rudder2": 32,
+        "Propeller3": 432,
+        "Rudder3": 32
+      }
+    }
+  ],
+  "reference_assembly": {
+    "file": "Seapower-Scripts.dll",
+    "reference_game_version": "0.8.7",
+    "reference_build_label": "261021 Public Release",
+    "source": "Sea Power project reference assembly, metadata inspection only. Stock data snapshot version independently unverified.",
+    "corrected_obj_import": "X reflected and face index order reversed; native positions independently encoded.",
+    "sha256": "eab2297ba92c6013958bdb2cf16d5794a4731330818ce353f89dc2241e16a3bd",
+    "SeaPower.Constants.METER_TO_UNITY": 0.0148809375,
+    "engine_loaded_in_game": false
+  },
+  "outstanding_game_checks": [
+    "Unit name and scenario loading",
+    "Actual game waterline and CORRECT_OBJ_ORIENTATION handling",
+    "Gun/radar/ESM operation",
+    "Propeller spin and rudder turning in game",
+    "Hull collision behaviour",
+    "Rescue flight operations (not registered)"
+  ],
+  "stock_comparison": {
+    "reference_id": "civ_ms_ivan_franko",
+    "description": "Ivan Franko class ice-strengthened passenger ship. Closest polar-service hull found in the stock vessel snapshot. Reference uses bundled meshes. Rimehaven uses external OBJ files.",
+    "vessel_ini_sha256": "20d7d7122ff0e9c8a348c59513099fbabf1fb2df6e71b571800a27be3d9f9e93",
+    "vanilla_snapshot_url": "https://github.com/SEST-HOBBY/Seapower-mods/blob/a0721c18f08b6e7fe3021e740854d326939d189c/mods-source/_vanilla/original/vessels/civ_ms_ivan_franko.ini",
+    "passed": [
+      "Models, submodels and collider section layout",
+      "Propeller and rudder mounts",
+      "Buoyancy and drag fields",
+      "Class and individual variant name registration",
+      "Declared stock ammunition files and sensor/weapon registry identifiers"
+    ],
+    "scope": "Static comparison. Game build of the reference snapshot unverified."
+  }
+}

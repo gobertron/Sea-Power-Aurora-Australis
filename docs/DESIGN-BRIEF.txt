@@ -1,0 +1,34 @@
+HMAS Rimehaven · White Meridian class
+Antarctic fisheries patrol, logistics and search and rescue
+Version 0.2.0 · 21 November 2026
+
+DESIGN BASIS
+
+The ship and class names are fictional. The Australian nuclear-electric concept, 160 m length, 29 m beam, 9.5 m design draught, three shafts, 18-knot open-water setting, aft flight deck and three equipment generations carry forward the original brief. The earlier displacement of about 28,000 t and 120 days of stores are narrative design targets. The mod implements a common hull and fixed waterline for all three fits.
+
+AUSTRALIA · RSV NUYINA
+A rising forebody rides onto level ice so the ship's weight bends it. The Australian Antarctic Division describes a forward skeg that limits how far the bow can climb. This is the reference for Rimehaven's contact face and transition into the forefoot. The ship also needs an ocean-going forward deck for the Southern Ocean crossing.
+https://www.antarctica.gov.au/magazine/issue-34-june-2018/icebreaker/three-ships-in-one/
+
+CANADA · CANADIAN COAST GUARD
+The Coast Guard describes rounded conventional sterns and an ice horn immediately above and aft of the rudder to shield steering gear when backing. Its guide also identifies a strengthened band at the ice-contact waterlines. These are the basis for shaping and marking the afterbody and ice belt. Belt colour is a visual cue. Steel thickness and backing loads are outside the game's model.
+https://www.canada.ca/en/canadian-coast-guard/corporate/publications/ice-navigation-in-canadian-waters/chapter-5-vessel-design-construction-for-ice-operations.html
+
+SWEDEN · ODEN
+Oden's crews describe how nozzles surround its propellers and give some protection at low speed. They also describe ice lodging in the nozzles. This informed the three fixed nozzles and the clearance checks around Rimehaven's screws. Rimehaven retains its own three-shaft layout.
+https://www.polar.se/en/news/2026/breaking-ice-with-oden/
+
+FINLAND · POLARIS
+The designer describes a Baltic escort arrangement with two stern thrusters and a third in the bow. This provided a comparison when retaining Rimehaven's conventional stern shafts and rudders.
+https://akerarctic.fi/app/uploads/2018/09/akerarc130_2017.pdf
+
+NORWAY · KRONPRINS HAAKON
+Norway's polar research vessel is an operational reference for long voyages and carrying out research in ice-covered waters. Rimehaven retains a clear aft working area, hangar and equipment space for its own support role.
+https://www.hi.no/en/hi/about-us/facilities/our-vessels/kronprins-haakon
+
+RUSSIA · PROJECT 22220
+The operator describes a nuclear icebreaker family with a dual-draft hull for both coastal seas and river estuaries. This supplied a scale and role comparison. Rimehaven has one design draught. Its game configuration adds no variable-ballast or icebreaking mode.
+https://report.rosatom.ru/go_eng/go_rosatom_eng_2025/rosatom_2025_eng.pdf
+
+IN-GAME LIMITS
+The earlier aspiration of approximately 2 m of level ice at 3 knots remains fictional. Neither this build nor its geometry checks measure ice resistance, fracture or real vessel performance. The model carries no certified polar-class rating.
