@@ -100,9 +100,12 @@ def run_tests(args, work):
     target = assets / MOD
     appdata = work / "local"
     logs = appdata / MOD / "Logs"
-    env = dict(os.environ, LOCALAPPDATA=str(appdata), ProgramFiles=str(work / "program-files"),
+    env = dict(os.environ, LOCALAPPDATA=str(appdata),
                TEST_MANAGER=str(manager), TEST_GAME=str(game), TEST_RELEASE_VERSION=version,
                TEST_RELEASE_DIR=str(launcher.parent), AURORA_GAME_PATH=str(game))
+    if os.name != "nt":
+        # The POSIX fixture supplies a fake Steam library discovery root.
+        env["ProgramFiles"] = str(work / "program-files")
     results = {}
 
     def invoke(body=None, call=(), fail=False, **extra):

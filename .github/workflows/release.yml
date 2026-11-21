@@ -12,6 +12,9 @@ concurrency:
 jobs:
   windows:
     runs-on: windows-2022
+    defaults:
+      run:
+        shell: powershell
     permissions:
       contents: read
     steps:
